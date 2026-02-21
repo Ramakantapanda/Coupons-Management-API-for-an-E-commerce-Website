@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### 2. Start the server
 
 ```bash
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 ```
 
 API will be available at: **http://127.0.0.1:8000**
@@ -53,7 +53,7 @@ Interactive Swagger UI: **http://127.0.0.1:8000/docs**
 ### 3. Run tests
 
 ```bash
-pytest test_main.py -v
+python -m pytest test_main.py -v
 ```
 
 ---
